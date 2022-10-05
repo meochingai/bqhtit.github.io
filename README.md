@@ -1,2 +1,2 @@
 # bqhtit.github.io
-Repo lỏ anh em đừng sài :))
+Repo lỏ nha anh em :)
