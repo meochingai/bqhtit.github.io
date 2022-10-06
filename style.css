@@ -34,3 +34,13 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+.noti {
+  text-align: center;
+  padding: 10px 10px;
+  line-height: 2;
+  color: white;
+  background: linear-gradient(245deg, #fcb564, #ff65f2);
+  font-size: 16px;
+  font-weight: 500;
+}
