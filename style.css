@@ -44,3 +44,11 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
