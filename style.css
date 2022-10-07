@@ -175,3 +175,7 @@ div {
 p {
   color: #ffff;
 }
+
+img {
+  max-width: 150px;
+}
