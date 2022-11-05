@@ -54,3 +54,7 @@ div {
     display: block;
 }
 
+img {
+  max-width:350px;
+}
+
