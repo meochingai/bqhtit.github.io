@@ -7,7 +7,7 @@
   white-space: nowrap;
   border-right: 0.25rem solid #fff;
   font-size: 3rem;
-  color: #fff;
+  color: #000000;
   font-weight: 700;
   animation: typing 8s steps(40) infinite, blinking 1s infinite;
 }
