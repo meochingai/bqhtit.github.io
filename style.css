@@ -65,7 +65,7 @@ body {
 	padding: 0;
 }
 
-#ms-container {
+.ms-container {
 	width: 100%;
 	height: 100vh;
 	background: #1c9cf2;
@@ -99,10 +99,10 @@ body {
 	transform: rotate(0deg);
 	transition: transform 0s ease;
 }
-#ms-download {
+.ms-download {
 	display: none;
 }
-#ms-download:checked ~ .ms-line-down-container {
+.ms-download:checked ~ .ms-line-down-container {
 	transform: rotate(-360deg);
 	transition: transform 1.5s ease 1.25s;
 }
