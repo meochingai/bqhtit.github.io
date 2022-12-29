@@ -58,3 +58,32 @@ img {
   max-width:350px;
 }
 
+$backWave: #308FFA;
+$frontWave: #419AFE;
+$border: $frontWave;
+$borderActive: #fff;
+
+.upload {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid $border;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform .2s ease;
+    .path {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        margin: -36px 0 0 -36px;
+        width: 72px;
+        height: 72px;
+        .arrow {
+            bottom: 27px;
+            width: 2px;
+            height: 21px;
+            position: absolute;
+            left: 50%;
+
