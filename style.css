@@ -112,26 +112,3 @@ body {
 	top: 0;
 	right: 0;
 	left: 0;
-
-.navbar {
-        navbar-padding-x;
-        navbar-padding-y;
-        navbar-light-color;
-        navbar-light-hover-color;
-        navbar-light-disabled-color;
-        navbar-light-active-color;
-        navbar-brand-padding-y;
-        navbar-brand-margin-end;
-        navbar-brand-font-size;
-        navbar-light-brand-color;
-        navbar-light-brand-hover-color;
-        navbar-nav-link-padding-x;
-        navbar-toggler-padding-y;
-        navbar-toggler-padding-x;
-        navbar-toggler-font-size;
-        navbar-light-toggler-icon-bg;
-        navbar-light-toggler-border-color;
-        navbar-toggler-border-radius;
-        navbar-toggler-focus-width;
-        navbar-toggler-transition;
-  }
