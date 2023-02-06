@@ -112,6 +112,7 @@ body {
 	top: 0;
 	right: 0;
 	left: 0;
+
 .navbar {
   --#{$prefix}navbar-padding-x: #{if($navbar-padding-x == null, 0, $navbar-padding-x)};
   --#{$prefix}navbar-padding-y: #{$navbar-padding-y};
