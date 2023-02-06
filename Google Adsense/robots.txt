@@ -6,4 +6,4 @@ Disallow: /search
 Allow: /search/label
 Allow: /
 
-Sitemap: https://www.chiasejb.com/sitemap.xml
+Sitemap: https://bqhtit.github.io/sitemap.xml
