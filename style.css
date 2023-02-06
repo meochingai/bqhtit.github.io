@@ -137,22 +137,22 @@ body {
         border-radius:var(--buttonR)
 }
 
-.dlBox .fT::before {
+.dlBox .fT {
         content:attr(data-text);
         opacity:.7
 }
 
-.dlBox .fT.lazy {
+.dlBox .fT .lazy {
         background-size:cover;
         background-position:center;
         background-repeat:no-repeat
 } 
 
-.dlBox .fT.lazy::before {
+.dlBox .fT .lazy {
         display:none
 } 
 
-.dlBox a {
+.dlBox {
         flex-shrink:0;
         margin:0;
         padding:10px 12px;
@@ -160,7 +160,7 @@ body {
         font-size:13px
 }
 
- .dlBox a::after {
+ .dlBox {
         content:attr(aria-label)
 } 
 
@@ -170,7 +170,7 @@ body {
         padding:0 15px
 } 
 
-.dlBox .fN >* {
+.dlBox .fN {
         display:block;
         white-space:nowrap;
         overflow:hidden;
@@ -195,8 +195,8 @@ body {
         -webkit-transition:margin .6s ease
 } 
 
-.dldCo::before {
-        content:'Generating Download Link...';
+.dldCo {
+        content:'Đang tạo liên kết tải xuống...';
         position:absolute;
         z-index:1;
         font-size:13px;
@@ -221,4 +221,3 @@ body {
 .drK .dldCo {
         background:var(--darkBa);
 }
-
