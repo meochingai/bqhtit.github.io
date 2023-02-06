@@ -114,7 +114,7 @@ body {
 	left: 0;
 
 .navbar {
-        navbar-padding-x == null, 0, $navbar-padding-x)};
+        navbar-padding-x;
         navbar-padding-y;
         navbar-light-color;
         navbar-light-hover-color;
