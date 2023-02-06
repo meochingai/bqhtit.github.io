@@ -2,11 +2,11 @@
 
 # Email : bqhtit@gmail.com
 
-# NPH-iOS | Nơi chia sẻ sản phẩm kiến thức công nghệ thủ thuật cùng nhau học hỏi trao đổi kinh nghiệm về iOS Jailbreak.
+# Chia Sẻ Jailbreak | Nơi chia sẻ sản phẩm kiến thức công nghệ thủ thuật cùng nhau học hỏi trao đổi kinh nghiệm về iOS Jailbreak.
 
 # Bùi Quang Hùng
 
-# NPH-iOS
+# Chia Sẻ Jailbreak
 
 # Bùi Hùng Blog
 
