@@ -2,15 +2,6 @@
   display: inline-block;
 }
 
-.fade-loading {
-  width: 30px;
-  height: 30px;
-  background-color: #2cccff;
-  border-radius: 100rem;
-  margin: 10px auto;
-  position: relative;
-}
-
 .fade-loading:before {
   content: "";
   position: absolute;
