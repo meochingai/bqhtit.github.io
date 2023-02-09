@@ -132,3 +132,18 @@ body {
 	right: 0;
 	left: 0;
 }
+
+.dlBox{max-width:500px;background:#f1f1f0;border-radius:10px;padding:12px;margin:1.7em 0; display:flex;align-items:center; font-size:14px} 
+.dlBox .fT{flex-shrink:0;display:flex;align-items:center;justify-content:center; width:45px;height:45px; padding:10px; background:rgba(0,0,0,.1);border-radius:var(--buttonR)} 
+.dlBox .fT::before{content:attr(data-text);opacity:.7} 
+.dlBox .fT.lazy{background-size:cover;background-position:center;background-repeat:no-repeat} 
+.dlBox .fT.lazy::before{display:none} .dlBox a{flex-shrink:0;margin:0;padding:10px 12px;border-radius:var(--buttonR);font-size:13px} 
+.dlBox a::after{content:attr(aria-label)} 
+.dlBox .fN{flex-grow:1; width:calc(100% - 200px);padding:0 15px} 
+.dlBox .fN >*{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis} 
+.dlBox .fS{line-height:16px;font-size:12px;opacity:.8} 
+.dldCo{display:flex;align-items:center;justify-content:center;max-width:480px;background:rgba(0,0,0,.03);border-radius:10px;margin:30px 0;transition:margin .6s ease;-webkit-transition:margin .6s ease} 
+.dldCo::before{content:'Đang tạo liên kết tải xuống...';position:absolute;z-index:1;font-size:13px;font-family:var(--fontB);opacity:.8} 
+.dldBx{visibility:hidden;opacity:0;transition:opacity .3s ease;-webkit-transition:opacity .3s ease} 
+.dldSl{visibility:hidden;opacity:0;transition:opacity .3s ease,bottom .6s ease;-webkit-transition:opacity .3s ease,bottom .6s ease} 
+.drK .dldCo{background:var(--darkBa)}
